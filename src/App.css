@@ -1,0 +1,40 @@
+.main-body{
+  background:blue;
+  background: -webkit-linear-gradient(to right,#6FB1FC,#4364F7,blue);
+  background:linear-gradient(to right,#6FB1FC,#4364F7,blue);
+  height:100vh;
+}
+.main-todo-list{
+  background-color: white;
+  width:700px;
+  height:600px;
+  border-radius: 10px;;
+}
+.todo-items{
+  display: flex;
+  padding:10px;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: center;
+}
+#add{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+.task-list{
+  width:95%;
+  list-style: none;
+  padding: 0px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.task-list li{
+  margin:0px;
+}
+.task-btns{
+  display:flex;
+  column-gap:10px; 
+}
